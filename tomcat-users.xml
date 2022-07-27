@@ -53,4 +53,13 @@
   <user username="both" password="<must-be-changed>" roles="tomcat,role1"/>
   <user username="role1" password="<must-be-changed>" roles="role1"/>
 -->
+  <!-- psi probe相关角色配置 -->
+
+<role rolename="probeuser"/>
+<role rolename="poweruser"/>
+<role rolename="poweruserplus"/>
+<role rolename="manager-gui"/>
+
+<user username="admin" password="brysj1@3$5^" roles="manager-gui"/>
+  
 </tomcat-users>
